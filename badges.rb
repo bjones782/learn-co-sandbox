@@ -13,7 +13,7 @@ end
 end
 
  def assign_rooms(arr)
-  new_array2 = []
+  new_array = []
   counter = 1
   arr.each do |name|
   new_array.push("Hello, #{name}! You'll be assigned to room #{counter}!")
