@@ -21,6 +21,7 @@ end
   end
   return new_array  
 end
+#sooooo not the right way to loop this! 
 
  def printer(arr)
   batch_badge_creator(arr).each do |badge|
