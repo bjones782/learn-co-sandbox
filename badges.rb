@@ -5,15 +5,15 @@ end
 speaker_names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 def batch_badge_creator(names)
-  new_array = []
+  new_array1 = []
   names.each do |name|
-   new_array.push("Hello, my name is #{name}.")
+   new_array1.push("Hello, my name is #{name}.")
 end
-  new_array
+  new_array1
 end
 
  def assign_rooms(arr)
-  new_array = []
+  new_array2 = []
   counter = 1
   arr.each do |name|
   new_array.push("Hello, #{name}! You'll be assigned to room #{counter}!")
